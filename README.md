@@ -149,5 +149,3 @@ Corpus used: [psychology_corpus](https://github.com/naomibaes/psychology_corpus)
 | Breadth    | [`domain/psychology/3_breadth/output/unique_all-year`](https://github.com/naomibaes/Synthetic-LSC_pipeline/tree/main/domain/psychology/3_breadth/output/unique_all-year) |
 
 ---
-
-Let me know if you’d like to add a `Citation` section with BibTeX, or link directly to camera-ready files once available.
