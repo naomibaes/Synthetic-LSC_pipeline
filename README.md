@@ -52,17 +52,13 @@ Each LLM-based generation task is seeded using few-shot examples crafted by a ps
 
 ### 🟣 Sentiment & Intensity
 
-1. **Neutral sentence selection**:  
-   - Based on mean valence/arousal scores from the NRC-VAD lexicon (Mohammad, 2018), filtered around a neutral mid-range.
+1. **Neutral sentence selection**: Based on mean valence/arousal scores from the NRC-VAD lexicon (Mohammad, 2018), filtered around a neutral mid-range.
 
-2. **Few-shot prompt crafting**:  
-   - Five diverse demonstration examples per target, written by a domain expert.
+2. **Few-shot prompt crafting**: Five diverse demonstration examples per target, written by a domain expert.
 
-3. **Prompt refinement**:  
-   - Optimized on 10 pilot sentences per target.
+3. **Prompt refinement**: Optimized on 10 pilot sentences per target.
 
-4. **Inference**:  
-   - GPT-4o generates low/high Sentiment or Intensity versions via the OpenAI API.
+4. **Inference**: GPT-4o generates low/high Sentiment or Intensity versions via the OpenAI API.
 
 5. **Post-processing**:  
    - Some outputs are manually filtered (e.g., due to failure to preserve targets: ~0.25% for Sentiment, ~0.01% for Intensity).  
