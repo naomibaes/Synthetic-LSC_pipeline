@@ -139,7 +139,7 @@ Full dataset summary: [Information Sheet](https://github.com/naomibaes/Synthetic
 
 ---
 
-**Please cite the work as follows:**  
+## **Please cite the work as follows:**  
 ```
 @inproceedings{meng-etal-2025-what,
     title = "What is Stigma Attributed to? A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying Mental-Health Stigma",
