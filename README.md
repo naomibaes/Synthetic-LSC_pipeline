@@ -7,7 +7,7 @@
 
 ## Summary
 
-**Aim**: This repository contains the scripts and output files used to generate **diachronic synthetic datasets** for evaluating lexical semantic change (LSC) along specific dimensions. It accompanies the paper introducing the **three-stage evaluation framework, LSC-Eval**: [Read the paper](https://arxiv.org/abs/2503.08042)
+**Aim**: This repository contains the scripts and output files used to generate **diachronic synthetic datasets** for evaluating lexical semantic change (LSC) along specific dimensions. It accompanies the paper introducing the **three-stage evaluation framework, LSC-Eval**: [Read the paper here](https://arxiv.org/abs/2503.08042)
 
 **Acknowledgement**: This pipeline was developed by [Naomi Baes](https://naomibaes.github.io/) and [Raphael Merx](https://www.rapha.dev/) under the guidance of Haim Dubossarsky, Ekaterina Vylomova, and Nick Haslam.
 
