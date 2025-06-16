@@ -5,13 +5,29 @@
 
 ---
 
-## 🧠 Summary
+## Summary
 
 **Aim**: This repository contains the scripts and output files used to generate **diachronic synthetic datasets** for evaluating lexical semantic change (LSC) along specific dimensions. It accompanies the paper introducing the **three-stage evaluation framework, LSC-Eval**:  
 📄 https://arxiv.org/abs/2503.08042
 
 > 📣 **This work has been accepted to ACL Findings 2024.**  
-> Citation details and BibTeX will be added once the camera-ready version is live.
+```
+@inproceedings{meng-etal-2025-what,
+    title = "What is Stigma Attributed to? A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying Mental-Health Stigma",
+    author = "Meng, Han  and
+      Chen, Yancan  and
+      Li, Yunan  and
+      Yang, Yitian  and
+      Lee, Jungup  and
+      Zhang, Renwen  and
+      Lee, Yi-Chieh",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics"
+}
+```
 
 **Acknowledgement**: This pipeline was developed by [Naomi Baes](https://naomibaes.github.io/) and [Raphael Merx](https://www.rapha.dev/) under the guidance of Haim Dubossarsky, Ekaterina Vylomova, and Nick Haslam.
 
@@ -38,7 +54,7 @@ While this pipeline currently targets Sentiment, Intensity, and Breadth, **LSC-E
 
 ---
 
-## ✏️ Few-Shot Demonstration Examples (In-Context Learning)
+## Few-Shot Demonstration Examples (In-Context Learning)
 
 Each LLM-based generation task is seeded using few-shot examples crafted by a psychology scholar:
 
@@ -49,7 +65,7 @@ Each LLM-based generation task is seeded using few-shot examples crafted by a ps
 
 ---
 
-## 📤 Output Structure
+## Output Structure
 
 - **5-year samples (synthetic sentences)**:  
   `domain/[domain]/[dimension]/output/5-year/`
@@ -59,7 +75,7 @@ Each LLM-based generation task is seeded using few-shot examples crafted by a ps
 
 ---
 
-## 🧪 Synthetic Dimension Generation Procedures
+## Synthetic Dimension Generation Procedures
 
 ### 🟣 Sentiment & Intensity
 
@@ -79,7 +95,7 @@ Each LLM-based generation task is seeded using few-shot examples crafted by a ps
    - Some outputs are manually filtered (e.g., due to failure to preserve targets: ~0.25% for Sentiment, ~0.01% for Intensity).  
    - Adjust temperature to optimize creativity vs. fidelity.
 
-📊 Figures in the paper illustrate the breakdown of sampled neutral sentences and success rates.
+Figures in the paper illustrate the breakdown of sampled neutral sentences and success rates.
 
 ---
 
@@ -99,18 +115,18 @@ Each 5-year epoch contains up to 1,500 breadth-augmented sentences per injection
 
 ---
 
-## 📌 Domain and Targets
+## Domain and Targets
 
 - **Domain**: Academic Psychology (abstracts of scientific articles)
 - **Targets**: `abuse`, `anxiety`, `depression`, `mental health`, `mental illness`, `trauma`
 
 Corpus used: [psychology_corpus](https://github.com/naomibaes/psychology_corpus)
 
-📄 Full dataset summary: [Information Sheet](https://github.com/naomibaes/Synthetic-LSC_pipeline/blob/main/information_sheet_synthetic_SIB_psychology.md)
+Full dataset summary: [Information Sheet](https://github.com/naomibaes/Synthetic-LSC_pipeline/blob/main/information_sheet_synthetic_SIB_psychology.md)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Create a virtual environment:
    ```bash
