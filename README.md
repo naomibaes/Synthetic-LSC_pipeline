@@ -7,8 +7,7 @@
 
 ## Summary
 
-**Aim**: This repository contains the scripts and output files used to generate **diachronic synthetic datasets** for evaluating lexical semantic change (LSC) along specific dimensions. It accompanies the paper introducing the **three-stage evaluation framework, LSC-Eval**:  
-📄 https://arxiv.org/abs/2503.08042
+**Aim**: This repository contains the scripts and output files used to generate **diachronic synthetic datasets** for evaluating lexical semantic change (LSC) along specific dimensions. It accompanies the paper introducing the **three-stage evaluation framework, LSC-Eval**: [Read the paper](https://arxiv.org/abs/2503.08042)
 
 **Acknowledgement**: This pipeline was developed by [Naomi Baes](https://naomibaes.github.io/) and [Raphael Merx](https://www.rapha.dev/) under the guidance of Haim Dubossarsky, Ekaterina Vylomova, and Nick Haslam.
 
@@ -17,11 +16,11 @@
 - **I**ntensity  
 - **B**readth  
 
-📄 Dataset details: [Information Sheet](https://github.com/naomibaes/Synthetic-LSC_pipeline/blob/main/information_sheet_synthetic_SIB_psychology.md)
+Dataset details: [Information Sheet](https://github.com/naomibaes/Synthetic-LSC_pipeline/blob/main/information_sheet_synthetic_SIB_psychology.md)
 
 ---
 
-## 📦 Function and Use Cases
+## Function and Use Cases
 
 These diachronic synthetic datasets allow researchers to evaluate whether LSC detection methods or models are **sensitive to specific semantic dimensions**, rather than treating LSC as a unitary phenomenon.
 
@@ -38,21 +37,14 @@ While this pipeline currently targets Sentiment, Intensity, and Breadth, **LSC-E
 ## Few-Shot Demonstration Examples (In-Context Learning)
 
 Each LLM-based generation task is seeded using few-shot examples crafted by a psychology scholar:
-
-- Path:  
-  `domain/[domain]/[dimension]/input/[dimension]_example_sentences.xlsx`  
-- Example:  
-  `domain/psychology/1_sentiment/input/sentiment_example_sentences.xlsx`
+- Path: `domain/[domain]/[dimension]/input/[dimension]_example_sentences.xlsx`  
+- Example: `domain/psychology/1_sentiment/input/sentiment_example_sentences.xlsx`
 
 ---
 
 ## Output Structure
-
-- **5-year samples (synthetic sentences)**:  
-  `domain/[domain]/[dimension]/output/5-year/`
-
-- **Merged across all years**:  
-  `domain/[domain]/[dimension]/output/all-year/`
+- **5-year samples (synthetic sentences)**: `domain/[domain]/[dimension]/output/5-year/`
+- **Merged across all years**: `domain/[domain]/[dimension]/output/all-year/`
 
 ---
 
