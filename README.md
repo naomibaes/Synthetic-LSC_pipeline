@@ -10,25 +10,6 @@
 **Aim**: This repository contains the scripts and output files used to generate **diachronic synthetic datasets** for evaluating lexical semantic change (LSC) along specific dimensions. It accompanies the paper introducing the **three-stage evaluation framework, LSC-Eval**:  
 📄 https://arxiv.org/abs/2503.08042
 
-> 📣 **This work has been accepted to ACL Findings 2024.**  
-```
-@inproceedings{meng-etal-2025-what,
-    title = "What is Stigma Attributed to? A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying Mental-Health Stigma",
-    author = "Meng, Han  and
-      Chen, Yancan  and
-      Li, Yunan  and
-      Yang, Yitian  and
-      Lee, Jungup  and
-      Zhang, Renwen  and
-      Lee, Yi-Chieh",
-    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = jul,
-    year = "2025",
-    address = "Vienna, Austria",
-    publisher = "Association for Computational Linguistics"
-}
-```
-
 **Acknowledgement**: This pipeline was developed by [Naomi Baes](https://naomibaes.github.io/) and [Raphael Merx](https://www.rapha.dev/) under the guidance of Haim Dubossarsky, Ekaterina Vylomova, and Nick Haslam.
 
 **Application**: The current release focuses on the **psychology domain**, providing synthetic datasets for six target concepts manipulated along the **SIB dimensions**:  
@@ -165,3 +146,22 @@ Full dataset summary: [Information Sheet](https://github.com/naomibaes/Synthetic
 | Breadth    | [`domain/psychology/3_breadth/output/unique_all-year`](https://github.com/naomibaes/Synthetic-LSC_pipeline/tree/main/domain/psychology/3_breadth/output/unique_all-year) |
 
 ---
+
+**Please cite the work as follows:**  
+```
+@inproceedings{meng-etal-2025-what,
+    title = "What is Stigma Attributed to? A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying Mental-Health Stigma",
+    author = "Meng, Han  and
+      Chen, Yancan  and
+      Li, Yunan  and
+      Yang, Yitian  and
+      Lee, Jungup  and
+      Zhang, Renwen  and
+      Lee, Yi-Chieh",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics"
+}
+```
