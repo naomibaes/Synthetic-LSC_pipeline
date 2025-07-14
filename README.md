@@ -137,19 +137,10 @@ Full dataset summary: [Information Sheet](https://github.com/naomibaes/Synthetic
 
 ## **Please cite the work as follows:**  
 ```
-@inproceedings{meng-etal-2025-what,
-    title = "What is Stigma Attributed to? A Theory-Grounded, Expert-Annotated Interview Corpus for Demystifying Mental-Health Stigma",
-    author = "Meng, Han  and
-      Chen, Yancan  and
-      Li, Yunan  and
-      Yang, Yitian  and
-      Lee, Jungup  and
-      Zhang, Renwen  and
-      Lee, Yi-Chieh",
-    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = jul,
-    year = "2025",
-    address = "Vienna, Austria",
-    publisher = "Association for Computational Linguistics"
+@article{baes2025lsc,
+  title={LSC-Eval: A General Framework to Evaluate Methods for Assessing Dimensions of Lexical Semantic Change Using LLM-Generated Synthetic Data},
+  author={Baes, Naomi and Merx, Rapha{\"e}l and Haslam, Nick and Vylomova, Ekaterina and Dubossarsky, Haim},
+  journal={arXiv preprint arXiv:2503.08042},
+  year={2025}
 }
 ```
